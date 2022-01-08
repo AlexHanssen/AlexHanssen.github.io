@@ -5,6 +5,7 @@ body {
 header {
   color: rgb(233, 233, 233);
   white-space: nowrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #myName {
