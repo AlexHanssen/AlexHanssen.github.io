@@ -1,29 +1,42 @@
 body {
-  background-color: rgb(4, 4, 41);
+  background-color: rgb(7, 9, 87);
 }
 
 header {
   color: rgb(233, 233, 233);
+  height: 40px;
+  background-color: rgb(3, 4, 34);
   white-space: nowrap;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main {
+  color: white;
+}
+
 #myName {
-  width: 30%;
+  width: 50%;
   float: left;
   margin: 0px;
   display: inline-block;
+  font-size: 20px;
+  padding-top: 10px;
 }
-
+ul {
+  padding-right: 120px;
+}
 nav {
   width: 50%;
   float: left;
   text-align: right;
-  margin: 0px;
 }
 
 nav li {
   display: inline-block;
   padding-left: 20px;
   margin: 0px;
+}
+
+#introPara {
+  width: 40%;
 }
