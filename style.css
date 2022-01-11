@@ -1,6 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  /*below is for debugging only */
+  /* border: red solid 2px;  */
 }
 
 body {
@@ -8,7 +10,7 @@ body {
   background-image: url(bigcabin.jpeg);
 
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 header {
@@ -50,15 +52,29 @@ nav li {
   padding-left: 20px;
   margin: 0px;
 }
+nav li:hover {
+  color: turquoise;
+  font-weight: 900;
+}
+
+img {
+  border-radius: 30px;
+  margin: 20px;
+}
 
 #introPara {
   width: 40%;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 p {
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 footer {
