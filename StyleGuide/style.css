@@ -1,0 +1,39 @@
+Body {
+  font-family: Verdana;
+  background-color: rgb(27, 27, 85);
+}
+
+h1 {
+  margin: auto 160px;
+  color: white;
+}
+#colors {
+  background-color: black;
+  margin: auto 160px;
+  border: 3px solid green;
+}
+
+#colors p {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  margin: 15px 10px;
+}
+
+#white {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+#NLGreen {
+  color: black;
+  background-color: rgb(35, 255, 15);
+  text-align: center;
+}
+
+#BorderGreen {
+  color: black;
+  background-color: rgb(3, 88, 7);
+  text-align: center;
+}
